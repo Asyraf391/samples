@@ -21,6 +21,8 @@ public class CalculateView {
         
         weight_on_mars = controllerObj.calculateWeight(weight);
            
+        System.out.println("Your weight on Earth is: " + df2.format(weight));  // Output User Weight
         System.out.println("Your weight on Mars is: " + df2.format(weight_on_mars));  // Output User Weight
+
     }
 }
